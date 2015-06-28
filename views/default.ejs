@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title><%=title%></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+    <!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+    <!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+    <!--script src="js/less-1.3.3.min.js"></script-->
+    <!--append â€˜#!watchâ€™ to the browser URL, then refresh the page. -->
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body STYLE="background-color: #E6E6FA  ;">
+<IMG ALT="" SRC="/img/myroomcom.png" STYLE="height: 60px;width: 250px;">
+<% if ( expressFlash.length > 0 ) { %>
+  <p STYLE="margin-left: 50px;color: green;" >     <%= expressFlash %> </p>
+<% } %>
+
+ 
+            
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-8 column">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="#">Link</a>
+                        </li>
+                       
+                        <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                    <a href="#">One more separated link</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control">
+                        </div> <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#">Contact Us</a>
+                        </li>
+                        <li class="dropdown">
+                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Another action</a>
+                                </li>
+                                <li>
+                                    <a href="#">Something else here</a>
+                                </li>
+                                <li class="divider">
+                                </li>
+                                <li>
+                                    <a href="#">Separated link</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                
+            </nav>
+            <div class="carousel slide" id="carousel-527367" >
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="1" data-target="#carousel-527367">
+                    </li>
+                    <li data-slide-to="1" data-target="#carousel-527367">
+                    </li>
+                    <li data-slide-to="2" data-target="#carousel-527367">
+                    </li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img alt="" src="http://lorempixel.com/1600/500/sports/1">
+                        <div class="carousel-caption">
+                            <h4>
+                                First Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="" src="http://lorempixel.com/1600/500/sports/2">
+                        <div class="carousel-caption">
+                            <h4>
+                                Second Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img alt="" src="http://lorempixel.com/1600/500/sports/3">
+                        <div class="carousel-caption">
+                            <h4>
+                                Third Thumbnail label
+                            </h4>
+                            <p>
+                                Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+                            </p>
+                        </div>
+                    </div>
+                </div> <a class="left carousel-control" href="#carousel-527367" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-527367" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+            </div>
+           
+            <BR>
+            <p >
+                Video Chat US was launched in the middle of 2011 and has a fair amount of users using the site. Most of the users are outside the US but they have a good amount of people to connect with online all the time.
+
+     The site is based overseas but seems to have started to target users in the United States and is in English. Video Chat US works really fast and has a good amount of users online that you can connect with. The features are the same as the original Chatroulette and the site does not offer extra features as some of the other sites in this list. Looks like this site may be related to Chatrandom but not really sure, just a hunch I have.
+
+
+
+
+            </p>
+            <p>
+                <a class="btn" href="#">View details Â»</a>
+            </p>
+        </div>
+        <div class="col-md-4 column">
+             
+            <form  action="/login" method="post" class="form-horizontal" role="form">
+                <div class="form-group">
+                     <label for="inputEmail3" class="col-sm-2 control-label">Rname</label>
+                    <div class="col-sm-10">
+                    
+                        <input type="text"  name="username" class="form-control" id="inputEmail3" PLACEHOLDER="Room name" REQUIRED="required">
+                    </div>
+                </div>
+                <div class="form-group">
+                     <label for="inputPassword3" class="col-sm-2 control-label">Rkey</label>
+                    <div class="col-sm-10">
+                        <input type="password"  name="password" class="form-control" id="inputPassword3" PLACEHOLDER="Room Key" REQUIRED="required">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <div class="checkbox">
+                             <label><input type="checkbox"> Remember me</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                         <button type="submit" class="btn btn-primary">Unlock</button>
+                    </div>
+                </div>
+            </form>
+             <BR><BR><BR>
+             <button id="modal-290794" data-target="#modal-container-290794"   type="button" class="btn btn-primary" data-toggle="modal" aria-pressed="false"  style="height: 50px;width: 150px;"><h4>Create Room</h4></button>
+            
+            <div class="modal fade" id="modal-container-290794" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">
+                               CREATE ROOM FOR YOU AND YOUR LOVED ONES
+                            </h4>
+                        </div>
+                        <div class="modal-body">
+                                        <form  action= "/storeroom"  method="post">
+                       <div >
+                 <BR>     
+                 <input type="text" id="_room"  name="room[name]" class="form-control" placeholder="Roomname"  REQUIRED="required">
+                 <BR>
+                 <input type="password"  id="pwd"  name="room[key]"  class="form-control" placeholder="Roomkey"  REQUIRED="required">
+                <BR>
+                 <input type="password"    class="form-control" placeholder="Confirmroomkey" >
+                <BR>
+                 <input type="email"   id="email" name="room[email]" class="form-control" placeholder="Email"  REQUIRED="required">
+                 <BR>
+                 <input type="number"   id="mobile" name="room[mobile]" class="form-control" placeholder="Mobno"  REQUIRED="required" >
+                 <BR>
+                 <button type="submit" class="btn btn-primary" >Create Room</button>
+             </div>
+       </form>
+      
+                        </div>
+                        <div class="modal-footer">
+                             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+                        </div>
+                    </div>
+                    
+                </div>
+                </div>
+            
+            <BR><BR><BR>
+            
+            <div class="panel-group" id="panel-370384">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                         <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-370384" href="#panel-element-91415">What is Temporary Room?</a>
+                    </div>
+                    <div id="panel-element-91415" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Temporary Room is The Room Which is not Saved it immediatly destroyed after Room Admin destroy it or it
+                             will Automatically after 24 hours from creation.You Can use this Room in For All your needs.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                         <a class="panel-title collapsed" data-toggle="collapse" data-parent="#panel-370384" href="#panel-element-46551">What is Permanent Room?</a>
+                    </div>
+                    <div id="panel-element-46551" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            Permanent Room is The Room Which is  Saved permanently.You Can enter any time you want.
+                            and chat with your Room members.It can be destroyed by Room Admin. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<HR/>
+</body>
+</html>
